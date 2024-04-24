@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+body {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(rooms_Back2.jpg);
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    color: peachpuff;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 35px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(99, 81, 81);
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    margin: 0px 9px;
+    background-color: lightslategray;
+    color: white;
+    padding: 0px 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+.img1 {
+    width: 34vw;
+    position: absolute;
+    left: 2%;
+    top: 180px;
+}
+
+.img2 {
+    width: 34vw;
+    position: absolute;
+    left: 39%;
+    top: 180px;
+}
+
+.img3 {
+    width: 33vw;
+    position: absolute;
+    left: 26%;
+    top: 530px;
+}
+
+.img4 {
+    width: 36vw;
+    position: absolute;
+    left: 62%;
+    top: 530px;
+}
+
+.img5 {
+    width: 33vw;
+    position: absolute;
+    left: 1%;
+    top: 875px;
+}
+
+.img6 {
+    width: 33vw;
+    position: absolute;
+    left: 37%;
+    top: 875px;
+}
